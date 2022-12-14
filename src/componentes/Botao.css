@@ -1,0 +1,181 @@
+
+/*****PADRÃO DE ESTILO DE BOTÃO*****/
+button{
+    box-sizing: border-box;
+    
+    font-family: 'Poppins';
+
+    border: none;
+    border-radius: 10px;
+}
+
+button:hover{
+    cursor: pointer;
+
+    border-radius: 10px;
+
+    transition: 0.5s;
+
+    color: white;
+    background: #000814;
+}
+/*********************************/
+
+
+
+/*****BOTÃO: ENTRAR NA MINHA CONTA*****/
+.btn-entrarNaMinhaConta{
+    box-sizing: border-box;
+
+    background: none;
+
+    position: relative;
+    width: 585px;
+    height: 98px;
+    left: 156px;
+    top: 570px;
+
+    padding-right: 255px;
+
+    border-top: 0.5px solid #000814;   
+    border-radius: 0px;
+
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 38px;
+}
+/*********************************/
+
+
+
+/*****BOTÃO: ME CADASTRAR COMO PF*****/
+.btn-meCadastrarComoPf{
+    box-sizing: border-box;
+
+    background: none;
+
+    position: relative;
+    width: 585px;
+    height: 98px;
+    left: 156px;
+    top: 570px;
+
+    padding-right: 255px;
+
+    border-top: 0.5px solid #000814;   
+    border-radius: 0px;
+
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 38px;
+}
+/*********************************/
+
+
+
+/*****BOTÃO: CADASTRAR MEU NEGOCIO*****/
+.btn-cadastrarMeuNegocio{
+    box-sizing: border-box;
+
+    background: none;
+
+    position: relative;
+    width: 585px;
+    height: 98px;
+    left: 156px;
+    top: 570px;
+    
+    padding-right: 240px;
+
+    border-top: 0.5px solid #000814;
+    border-bottom: 0.5px solid #000814;   
+    border-radius: 0px;
+
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 38px;
+
+    white-space: nowrap;
+}
+/*********************************/
+
+
+/*****GRUPO BOTÃO DE ACESSO*****/
+.grupo-botao{
+    position: relative;
+    top: -500px;
+}
+/*********************************/
+
+
+
+.grupo-botaoGoogleFacebook{
+    position: relative;
+    top: 330px;
+    left: 300px;
+}
+
+
+.bt-google{
+    position: relative;
+    width: 214.52px;
+    height: 50px;
+
+    background-color: #000814;
+
+    color: white;
+}
+
+.bt-google:hover{
+    cursor: pointer;
+
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.bt-facebook{
+    position: relative;
+    width: 214.52px;
+    height: 50px;
+    left: 13px;
+
+    background-color: #000814;
+
+    color: white;
+    
+}
+
+.bt-facebook:hover{
+    cursor: pointer;
+
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.btn-loginEntrar{
+    position: relative;
+    width: 461px;
+    height: 80px;
+    left: 150px;
+    top: 330px;
+
+    padding-right: 300px;
+
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 33px;
+
+    color: white;
+    background: #000814;
+    border: 1px solid #000814;
+}
+
+.btn-loginEntrar:hover{
+    cursor: pointer;
+
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
